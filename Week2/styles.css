@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(231, 240, 223);
+}
+.title {
+  background-color: black;
+  color: aliceblue;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin: 40px;
+  padding: 30px;
+}
+.title1 {
+  background-color: black;
+  color: aliceblue;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#image1 {
+  display: inline;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 180px;
+  max-height: 250px;
+  border-radius: 4px;
+}
+#image2 {
+  display: block;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  max-height: 300px;
+  border-radius: 4px;
+}
+#image3 {
+  display: block;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 180px;
+  max-height: 250px;
+  border-radius: 4px;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.nav1 {
+  display: flex;
+  align-self: auto;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 5px;
+}
+.head1 {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-family: "Playfair Display", serif;
+}
+.text1 {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+}
